@@ -27,6 +27,14 @@ FontChoice get_font(uint8_t font_size) {
         .padding_bottom = 4,
       };
 
+    case FONT_30_BLACK:
+      return (FontChoice) {
+        .key = FONT_KEY_BITHAM_30_BLACK,
+	.height = 20,
+        .padding_top = 10,
+        .padding_bottom = 4,
+      };
+
     case FONT_34_NUMBERS:
       return (FontChoice) {
         .key = FONT_KEY_BITHAM_34_MEDIUM_NUMBERS,
