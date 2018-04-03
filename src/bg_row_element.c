@@ -45,7 +45,7 @@ static void bg_row_element_rearrange(BGRowElement *el) {
 BGRowElement* bg_row_element_create(Layer *parent) {
   GRect bounds = element_get_bounds(parent);
 
-  FontChoice bg_font = get_font(FONT_34_NUMBERS);
+  FontChoice bg_font = get_font(FONT_42_BOLD);
   TextLayer *bg_text = add_text_layer(
     parent,
     GRect(
